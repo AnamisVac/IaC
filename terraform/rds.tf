@@ -3,7 +3,7 @@ resource "aws_db_instance" "default" {
   engine              = "mysql"
   engine_version      = "5.7"
   instance_class      = "db.t2.micro"
-  identifier          = "nombrerdssss"
+  identifier          = "ana-db"
   name                = "dbanam1"
   username            = "root"
   password            = "root12345"
